@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+    </android.support.v4.view.ViewPager>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#408ff4"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/color_selector"
+            android:button="@null"
+            android:checked="true"
+            android:clickable="true"
+            android:drawablePadding="@dimen/y6"
+            android:drawableTop="@drawable/img01"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="6dp"
+            android:text="举报指南"
+            android:textColor="@drawable/text_selector"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#ffffff" />
+
+        <RadioButton
+            android:id="@+id/rb_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/color_selector"
+            android:button="@null"
+            android:drawablePadding="@dimen/y6"
+            android:drawableTop="@drawable/img02"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="6dp"
+            android:text="我要举报"
+            android:textColor="@drawable/text_selector"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#ffffff" />
+
+        <RadioButton
+            android:id="@+id/rb_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/color_selector"
+            android:button="@null"
+            android:drawablePadding="@dimen/y6"
+            android:drawableTop="@drawable/img03"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="6dp"
+            android:text="举报查询"
+            android:textColor="@drawable/text_selector"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#ffffff" />
+    </RadioGroup>
+
+
+</LinearLayout>

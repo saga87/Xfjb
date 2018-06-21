@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">东营河口区信访系统</string>
+    <string name="text">请详细写明违纪行为发生的时间、地点、违纪事项、设计人员等，并尽可能提供相关信息等，5000字以内。</string>
+    <string name="text1">请记住您的举报查询码，以便于搜索和查询。</string>
+</resources>

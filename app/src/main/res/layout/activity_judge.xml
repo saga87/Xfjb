@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backbound"
+    android:orientation="vertical"
+    tools:context="com.fxn.xfjb.activity.JudgeActivity">
+    <TextView
+        android:layout_marginTop="@dimen/y200"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginLeft="@dimen/x100"
+        android:textColor="#000000"
+        android:layout_marginRight="@dimen/x100"
+        android:text="我们鼓励您实名举报，实名举报可优先办理，您是否要实名举报。"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/y200"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_problem_wyjb"
+            android:layout_width="@dimen/x250"
+            android:layout_height="@dimen/y80"
+            android:background="@drawable/button_color_selector"
+            android:text="署名举报"
+            android:layout_marginRight="20dp"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/btn_problem_nmjb"
+            android:layout_width="@dimen/x250"
+            android:layout_height="@dimen/y80"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/button_color_selector"
+            android:text="匿名举报"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>
